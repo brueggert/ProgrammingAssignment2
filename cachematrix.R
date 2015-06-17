@@ -1,4 +1,9 @@
-## makeCacheMatrix has the following functions, each returning a list
+# Since the calculation of the inverse of a large matrix can be costly, these 
+# two functions can cache the inverse of a matrix and used the cached value, 
+# if it exists, rather than recalculating it.  If it does not exist, then the 
+# inverse is calculated and cached for future reference.
+
+# makeCacheMatrix has the following functions, each returning a list
 # 1. Set the value of the matrix (set)
 # 2. Get the value of the matrix (get)
 # 3. Set the value of the inverse of the matrix (setinverse)
