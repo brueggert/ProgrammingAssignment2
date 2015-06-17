@@ -1,5 +1,5 @@
 # Since the calculation of the inverse of a large matrix can be costly, these 
-# two functions can cache the inverse of a matrix and used the cached value, 
+# two functions can cache the inverse of a matrix and use the cached value, 
 # if it exists, rather than recalculating it.  If it does not exist, then the 
 # inverse is calculated and cached for future reference.
 
